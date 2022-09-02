@@ -16,7 +16,9 @@ const authRouter = require('./routes/auth');
 const app = express();
 
 // cookies and loggers
-app.use(cors({ origin: '*' })) // Cors
+app.use(cors({
+  origin: process.env.ORIGIN
+}));
 app.set('trust proxy', 1);
 app.use((req, res, next) => {
   res.setHeader('Access-Control-Allow-Origin', '*');
