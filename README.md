@@ -33,7 +33,7 @@ npm run seed
 
 ### User
 
-User's in the database have the following properties:
+Users in the database have the following properties:
 
 ```js
 {
