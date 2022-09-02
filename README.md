@@ -60,5 +60,5 @@ Users in the database have the following properties:
 - [Presentation slides]()
 - [Frontend repository]()
 - [Frontend deploy]()
-- [Backend deploy]()
+- [Deployed REST API]()
 
