@@ -7,7 +7,7 @@ This is a the backend repository for the React application `app's name`.
 
 ## Instructions
 
-⚠️ When cloning the project, change the <code>sample.env</code> file name for <code>.env</code> ⚠️. The project will run on **PORT 8000**.
+When cloning the project, change the <code>sample.env</code> file name for <code>.env</code>. The project will run on **PORT 8000**.
 
 Then, run:
 ```bash
