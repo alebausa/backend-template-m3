@@ -1,10 +1,10 @@
 const router = require('express').Router();
-const ErrorResponse = require('../utils/error');
+const { isAuthenticated, isAdmin } = require('../middlewares/jwt');
 
-// @desc    GET all the projects
+// @desc    Index page for the API
 // @route   GET /api/v1/
 // @access  Public
-router.get('/', async (req, res, next) => {
+router.get('/', isAuthenticated, isAdmin, async (req, res, next) => {;
   res.send('REST API')
 });
 
